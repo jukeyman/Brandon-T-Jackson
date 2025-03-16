@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandon T. Jackson | Actor • Comedian • Entrepreneur</title>
+    <meta name="description" content="Official website of Brandon T. Jackson - Hollywood's most influential multi-hyphenate talent. Actor, Comedian, and Entrepreneurial Mogul.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'royal-gold': '#FFD700',
+                        'midnight-blue': '#1C1F33',
+                        'electric-aqua': '#00E0FF',
+                        'bold-crimson': '#D72638',
+                        'jet-black': '#000000'
+                    },
+                    fontFamily: {
+                        'montserrat': ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-montserrat bg-midnight-blue text-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-midnight-blue/90 backdrop-blur-md border-b border-royal-gold/20">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="text-royal-gold text-2xl font-bold">BTJ</a>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="about.html" class="nav-link text-white hover:text-royal-gold transition-colors">About</a>
+                    <a href="acting.html" class="nav-link text-white hover:text-royal-gold transition-colors">Acting</a>
+                    <a href="comedy.html" class="nav-link text-white hover:text-royal-gold transition-colors">Comedy</a>
+                    <a href="entrepreneur.html" class="nav-link text-white hover:text-royal-gold transition-colors">Entrepreneur</a>
+                    <a href="contact.html" class="nav-link text-white hover:text-royal-gold transition-colors">Contact</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden text-white hover:text-royal-gold">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div class="hidden md:hidden absolute w-full left-0 top-20 bg-midnight-blue/95 border-t border-royal-gold/20">
+                <div class="container mx-auto px-4 py-4 flex flex-col space-y-4">
+                    <a href="about.html" class="text-white hover:text-royal-gold transition-colors">About</a>
+                    <a href="acting.html" class="text-white hover:text-royal-gold transition-colors">Acting</a>
+                    <a href="comedy.html" class="text-white hover:text-royal-gold transition-colors">Comedy</a>
+                    <a href="entrepreneur.html" class="text-white hover:text-royal-gold transition-colors">Entrepreneur</a>
+                    <a href="contact.html" class="text-white hover:text-royal-gold transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Rest of the content remains the same -->
+    <!-- Hero Section -->
+    <header class="relative h-screen flex items-center justify-center overflow-hidden fade-in">
+        <div class="absolute inset-0 w-full h-full">
+            <div class="w-full h-full bg-gradient-to-b from-midnight-blue via-midnight-blue/90 to-jet-black"></div>
+        </div>
+        
+        <div class="relative z-20 text-center px-4">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 hero-content">
+                <span class="text-white">Brandon T. Jackson</span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 text-electric-aqua font-light hero-subtitle">
+                Actor • Comedian • Entrepreneur
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center items-center hero-cta">
+                <a href="entrepreneur.html" class="bg-royal-gold hover:bg-royal-gold/90 text-jet-black px-8 py-4 rounded-full font-bold transition-all transform hover:scale-105">
+                    Join The Movement
+                </a>
+                <a href="acting.html#showreel" class="border-2 border-electric-aqua text-electric-aqua px-8 py-4 rounded-full font-bold hover:bg-electric-aqua hover:text-midnight-blue transition-all">
+                    Watch Showreel
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Core Identity Section -->
+    <section class="py-20 bg-gradient-to-b from-midnight-blue to-jet-black">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12 section fade-in">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    <span class="text-royal-gold">Welcome to</span>
+                    <span class="text-electric-aqua">The Future</span>
+                </h2>
+                <p class="text-white/80 max-w-2xl mx-auto">
+                    Join the revolution of entertainment, technology, and entrepreneurship. Brandon T. Jackson is redefining success in Hollywood and beyond.
+                </p>
+            </div>
+            
+            <!-- Core Identity Cards -->
+            <div class="grid md:grid-cols-3 gap-8 mt-12 section fade-in" style="animation-delay: 0.3s">
+                <!-- Actor Card -->
+                <div class="feature-card bg-midnight-blue/50 border border-royal-gold/20 rounded-xl p-8 hover:transform hover:scale-105 transition-all">
+                    <i class="fas fa-film text-4xl text-royal-gold mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-4">Actor</h3>
+                    <p class="text-white/70">Breaking boundaries and setting new standards in Hollywood with groundbreaking performances.</p>
+                </div>
+                
+                <!-- Comedian Card -->
+                <div class="feature-card bg-midnight-blue/50 border border-royal-gold/20 rounded-xl p-8 hover:transform hover:scale-105 transition-all">
+                    <i class="fas fa-microphone-alt text-4xl text-royal-gold mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-4">Comedian</h3>
+                    <p class="text-white/70">Bringing laughter and joy through authentic, powerful stand-up comedy performances.</p>
+                </div>
+                
+                <!-- Entrepreneur Card -->
+                <div class="feature-card bg-midnight-blue/50 border border-royal-gold/20 rounded-xl p-8 hover:transform hover:scale-105 transition-all">
+                    <i class="fas fa-chart-line text-4xl text-royal-gold mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-4">Entrepreneur</h3>
+                    <p class="text-white/70">Building a billion-dollar empire through innovative business ventures and AI technology.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-jet-black">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12 items-center section fade-in">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">
+                        <span class="text-royal-gold">The Evolution</span>
+                        <span class="text-white">of a Legend</span>
+                    </h2>
+                    <p class="text-white/80 mb-6">
+                        From breakthrough roles in Hollywood to becoming a visionary entrepreneur, Brandon T. Jackson's journey is a testament to relentless ambition and innovation.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-star text-royal-gold"></i>
+                            <span>Hollywood Breakthrough Star</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-award text-royal-gold"></i>
+                            <span>Award-Winning Performances</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-rocket text-royal-gold"></i>
+                            <span>Tech & AI Innovation Leader</span>
+                        </div>
+                    </div>
+                    <a href="about.html" class="inline-block mt-8 bg-royal-gold text-jet-black px-8 py-3 rounded-full font-bold hover:bg-royal-gold/90 transition-all">
+                        Learn More
+                    </a>
+                </div>
+                <div class="relative h-[400px] rounded-xl overflow-hidden bg-gradient-to-r from-electric-aqua/20 to-royal-gold/20">
+                    <!-- Placeholder for about image -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Makin A Brand Section -->
+    <section id="entrepreneur" class="py-20 bg-gradient-to-b from-jet-black to-midnight-blue">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16 section fade-in">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                    <span class="text-royal-gold">Makin</span>
+                    <span class="text-electric-aqua">A Brand</span>
+                </h2>
+                <p class="text-white/80 max-w-2xl mx-auto">
+                    Join the #1 AI-powered business growth movement revolutionizing entertainment and technology.
+                </p>
+            </div>
+            
+            <!-- Features Grid -->
+            <div class="grid md:grid-cols-3 gap-8 section fade-in" style="animation-delay: 0.3s">
+                <!-- AI Technology -->
+                <div class="feature-card bg-midnight-blue/30 p-8 rounded-xl border border-electric-aqua/20">
+                    <i class="fas fa-robot text-3xl text-electric-aqua mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3">AI-Powered Growth</h3>
+                    <p class="text-white/70">Leveraging cutting-edge AI technology to accelerate business success.</p>
+                </div>
+                
+                <!-- Business Empire -->
+                <div class="feature-card bg-midnight-blue/30 p-8 rounded-xl border border-electric-aqua/20">
+                    <i class="fas fa-building text-3xl text-electric-aqua mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3">Empire Building</h3>
+                    <p class="text-white/70">Strategic investments in tech, media, real estate, and entertainment.</p>
+                </div>
+                
+                <!-- Elite Mastermind -->
+                <div class="feature-card bg-midnight-blue/30 p-8 rounded-xl border border-electric-aqua/20">
+                    <i class="fas fa-users text-3xl text-electric-aqua mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3">Elite Mastermind</h3>
+                    <p class="text-white/70">Exclusive community of high-performing entrepreneurs and innovators.</p>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="entrepreneur.html" class="inline-block bg-electric-aqua text-midnight-blue px-8 py-3 rounded-full font-bold hover:bg-electric-aqua/90 transition-all">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-20 bg-bold-crimson">
+        <div class="container mx-auto px-4 text-center section fade-in">
+            <h2 class="text-4xl font-bold mb-8">Join The Movement Today</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">
+                Be part of the next generation of entertainment and business innovation.
+            </p>
+            <a href="entrepreneur.html" class="inline-block bg-royal-gold text-jet-black px-12 py-4 rounded-full font-bold text-lg hover:transform hover:scale-105 transition-all">
+                Get Started Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-jet-black py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 section fade-in">
+                <div>
+                    <h3 class="text-royal-gold text-xl font-bold mb-4">Brandon T. Jackson</h3>
+                    <p class="text-white/60">Actor • Comedian • Entrepreneur</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-white/60 hover:text-royal-gold">About</a></li>
+                        <li><a href="acting.html" class="text-white/60 hover:text-royal-gold">Acting</a></li>
+                        <li><a href="comedy.html" class="text-white/60 hover:text-royal-gold">Comedy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Business</h4>
+                    <ul class="space-y-2">
+                        <li><a href="entrepreneur.html" class="text-white/60 hover:text-royal-gold">Makin A Brand</a></li>
+                        <li><a href="speaking.html" class="text-white/60 hover:text-royal-gold">Speaking</a></li>
+                        <li><a href="contact.html" class="text-white/60 hover:text-royal-gold">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="social-icon text-white/60 hover:text-royal-gold text-xl">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon text-white/60 hover:text-royal-gold text-xl">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon text-white/60 hover:text-royal-gold text-xl">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#" class="social-icon text-white/60 hover:text-royal-gold text-xl">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-white/10 text-center">
+                <p class="text-white/40">© 2024 Brandon T. Jackson. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
