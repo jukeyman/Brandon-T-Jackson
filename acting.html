@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandon T. Jackson | Acting Career</title>
+    <meta name="description" content="Explore Brandon T. Jackson's groundbreaking performances and upcoming projects in Hollywood.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'royal-gold': '#FFD700',
+                        'midnight-blue': '#1C1F33',
+                        'electric-aqua': '#00E0FF',
+                        'bold-crimson': '#D72638',
+                        'jet-black': '#000000'
+                    },
+                    fontFamily: {
+                        'montserrat': ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-montserrat bg-midnight-blue text-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-midnight-blue/90 backdrop-blur-md border-b border-royal-gold/20">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="text-royal-gold text-2xl font-bold">BTJ</a>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="about.html" class="nav-link text-white hover:text-royal-gold transition-colors">About</a>
+                    <a href="acting.html" class="nav-link text-royal-gold">Acting</a>
+                    <a href="comedy.html" class="nav-link text-white hover:text-royal-gold transition-colors">Comedy</a>
+                    <a href="entrepreneur.html" class="nav-link text-white hover:text-royal-gold transition-colors">Entrepreneur</a>
+                    <a href="contact.html" class="nav-link text-white hover:text-royal-gold transition-colors">Contact</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden text-white hover:text-royal-gold">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative h-[70vh] flex items-center justify-center overflow-hidden fade-in">
+        <div class="absolute inset-0 w-full h-full">
+            <div class="w-full h-full bg-gradient-to-b from-midnight-blue via-midnight-blue/90 to-jet-black"></div>
+        </div>
+        
+        <div class="relative z-20 text-center px-4">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 hero-content">
+                <span class="text-white">Hollywood's Rising</span>
+                <span class="text-royal-gold block">Legend</span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 text-electric-aqua font-light hero-subtitle max-w-3xl mx-auto">
+                From breakthrough performances to iconic roles, Brandon T. Jackson continues to redefine excellence in entertainment.
+            </p>
+        </div>
+    </header>
+
+    <!-- Filmography Section -->
+    <section class="py-20 bg-gradient-to-b from-midnight-blue to-jet-black">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12 section fade-in">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    <span class="text-royal-gold">Featured</span>
+                    <span class="text-electric-aqua">Filmography</span>
+                </h2>
+                <p class="text-white/80 max-w-2xl mx-auto">
+                    Explore Brandon's most memorable roles and performances across film and television.
+                </p>
+            </div>
+            
+            <!-- Featured Films Grid -->
+            <div class="grid md:grid-cols-3 gap-8 mt-12 section fade-in" style="animation-delay: 0.3s">
+                <!-- Film 1 -->
+                <div class="feature-card bg-midnight-blue/50 border border-royal-gold/20 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gradient-to-r from-electric-aqua/20 to-royal-gold/20"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Tropic Thunder</h3>
+                        <p class="text-white/70 mb-4">Breakout role alongside Ben Stiller and Robert Downey Jr.</p>
+                        <span class="text-electric-aqua">2008</span>
+                    </div>
+                </div>
+                
+                <!-- Film 2 -->
+                <div class="feature-card bg-midnight-blue/50 border border-royal-gold/20 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gradient-to-r from-electric-aqua/20 to-royal-gold/20"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Percy Jackson & the Olympians</h3>
+                        <p class="text-white/70 mb-4">Starring role in the fantasy adventure series.</p>
+                        <span class="text-electric-aqua">2010</span>
+                    </div>
+                </div>
+                
+                <!-- Film 3 -->
+                <div class="feature-card bg-midnight-blue/50 border border-royal-gold/20 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gradient-to-r from-electric-aqua/20 to-royal-gold/20"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Big Mommas: Like Father, Like Son</h3>
+                        <p class="text-white/70 mb-4">Leading role alongside Martin Lawrence.</p>
+                        <span class="text-electric-aqua">2011</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Projects -->
+    <section class="py-20 bg-jet-black">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12 items-center section fade-in">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">
+                        <span class="text-royal-gold">Upcoming</span>
+                        <span class="text-white">Projects</span>
+                    </h2>
+                    <p class="text-white/80 mb-6">
+                        Get ready for groundbreaking new performances and exciting collaborations coming soon to theaters and streaming platforms.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-film text-royal-gold"></i>
+                            <span>New Feature Films</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-tv text-royal-gold"></i>
+                            <span>Television Series</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-video text-royal-gold"></i>
+                            <span>Streaming Exclusives</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative h-[400px] rounded-xl overflow-hidden bg-gradient-to-r from-electric-aqua/20 to-royal-gold/20">
+                    <!-- Placeholder for project image -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="py-20 bg-gradient-to-b from-jet-black to-midnight-blue">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16 section fade-in">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                    <span class="text-royal-gold">Book Brandon</span>
+                    <span class="text-electric-aqua">For Your Project</span>
+                </h2>
+                <p class="text-white/80 max-w-2xl mx-auto">
+                    Looking to cast Brandon in your next film, TV show, or media project? Get in touch with our team.
+                </p>
+            </div>
+            
+            <!-- Contact Form -->
+            <div class="max-w-2xl mx-auto section fade-in">
+                <form class="space-y-6">
+                    <div>
+                        <label class="block text-white mb-2">Name</label>
+                        <input type="text" class="w-full bg-midnight-blue/30 border border-royal-gold/20 rounded-lg p-3 text-white" required>
+                    </div>
+                    <div>
+                        <label class="block text-white mb-2">Email</label>
+                        <input type="email" class="w-full bg-midnight-blue/30 border border-royal-gold/20 rounded-lg p-3 text-white" required>
+                    </div>
+                    <div>
+                        <label class="block text-white mb-2">Project Details</label>
+                        <textarea class="w-full bg-midnight-blue/30 border border-royal-gold/20 rounded-lg p-3 text-white h-32" required></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-royal-gold text-jet-black py-4 rounded-lg font-bold hover:bg-royal-gold/90 transition-all">
+                        Submit Inquiry
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-jet-black py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 section fade-in">
+                <div>
+                    <h3 class="text-royal-gold text-xl font-bold mb-4">Brandon T. Jackson</h3>
+                    <p class="text-white/60">Actor • Comedian • Entrepreneur</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-white/60 hover:text-royal-gold">About</a></li>
+                        <li><a href="acting.html" class="text-white/60 hover:text-royal-gold">Acting</a></li>
+                        <li><a href="comedy.html" class="text-white/60 hover:text-royal-gold">Comedy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Business</h4>
+                    <ul class="space-y-2">
+                        <li><a href="entrepreneur.html" class="text-white/60 hover:text-royal-gold">Makin A Brand</a></li>
+                        <li><a href="speaking.html" class="text-white/60 hover:text-royal-gold">Speaking</a></li>
+                        <li><a href="contact.html" class="text-white/60 hover:text-royal-gold">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="social-icon text-white/60 hover:text-royal-gold text-xl">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon text-white/60 hover:text-royal-gold text-xl">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon text-white/60 hover:text-royal-gold text-xl">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#" class="social-icon text-white/60 hover:text-royal-gold text-xl">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-white/10 text-center">
+                <p class="text-white/40">© 2024 Brandon T. Jackson. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
